@@ -227,7 +227,7 @@ document.getElementById('contact-form').addEventListener('submit', async functio
     submitButton.innerHTML = 'Enviando...';
     
     try {
-        const response = await fetch('https://formsubmit.co/ajax/thales.fernandes1@aluno.ce.gov.br', {
+        const response = await fetch('https://formsubmit.co/ajax/thalesfernandes.dev@gmail.com', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
