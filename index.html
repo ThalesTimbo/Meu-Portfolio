@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thales Timbó Fernandes | Developer</title>
+    <link rel="icon" type="image/png" href="IMG/ChatGPT Image 10 de mai. de 2025, 09_26_322.png" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font/icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- fontes do google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- tela de carregamento personalizado -->
+    <div class="preloader">
+        <div class="preloader__spinner"></div>
+        <p class="preloader__text">Carregando Portfólio...</p>
+    </div>
+    
+    <!-- Header/sidebar -->
+    <header class="header">
+        <a href="#" class="header__logo">Thales Timbó Fernandes</a>
+        
+        <nav class="header__nav d-none d-md-flex">
+            <a href="#about" class="header__nav-link">Sobre</a>
+            <a href="#skills" class="header__nav-link">Habilidades</a>
+            <a href="#portfolio" class="header__nav-link">Portfólio</a>
+            <a href="#contact" class="header__nav-link">Contato</a>
+        </nav>
+        <!-- redes sociais do header -->
+        <div class="d-flex align-items-center">
+            <div class="header__social me-3">
+                <a href="https://github.com/ThalesTimbo" target="_blank" class="header__social-icon" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/thales-timb%C3%B3-fernandes-14b222365/" target="_blank" class="header__social-icon" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/thales_timbo/" target="_blank" class="header__social-icon" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank" class="header__social-icon" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://api.whatsapp.com/send/?phone=5588981903220&text&type=phone_number&app_absent=0" target="_blank" class="header__social-icon" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Section/seção principal -->
+    <section class="hero">
+        <div class="hero__gradient"></div>
+        
+        <h1 class="hero__title">Thales Timbó Fernandes</h1>
+        <div class="hero__subtitle" id="typing-text">Desenvolvedor Front-End</div>
+        
+        <a href="#portfolio" class="hero__cta">Explorar Portfólio</a>
+    </section>
+    
+    <!-- seção sobre mim -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about__content">
+                <div class="about__image-container">
+                    <div class="position-relative">
+                        <img src="IMG/20250504_154958.jpg" alt="Thales Timbó Fernandes" class="about__image">
+                        <div class="about__image-overlay">Hello 👋</div>
+                    </div>
+                </div>
+                
+                <div class="about__text">
+                    <p class="about__paragraph">
+                        Minha jornada no desenvolvimento começou com uma curiosidade insaciável sobre como criar interfaces que não apenas funcionem, mas que encantem. Há 1 ano, mergulhei no universo do design e da programação, buscando constantemente aperfeiçoar minha capacidade de traduzir conceitos visuais em código.
+                    </p>
+                    
+                    <p class="about__paragraph">
+                        Quando não estou codificando, divido meu tempo entre minha paixão por tecnologia, música (especialmente lo-fi e trilhas sonoras de games ) e animes (Meu favorito? Certamente é Sword Art Online e Tower of God). Acredito que essas influências diversas enriquecem minha perspectiva criativa e me ajudam a pensar "fora da caixa".
+                    </p>
+                    
+                    <p class="about__paragraph">
+                        Minha missão como desenvolvedor é criar experiências digitais que sejam tão funcionais quanto bonitas, combinando o melhor do minimalismo com interatividade intuitiva. Acredito que o bom design é aquele que você mal percebe, mas que torna tudo mais simples e agradável.
+                    </p>
+                </div>
+
+                <!--pq está olhando o meu codigo? deixa meu html quieto seu pola--> 
+
+            </div>
+            <!-- timeline/linha do tempo -->
+            <div class="timeline">
+                <div class="timeline__container">
+                    <div class="timeline__item">
+                        <div class="timeline__year">2024</div>
+                        <div class="timeline__title">Início ao Estudo na EEEP D.J.M.M</div>
+                        <div class="timeline__description">Primeiros passos no desenvolvimento. Quando começo a ter uma base de conhecimento.</div>
+                    </div>
+                    
+                    <div class="timeline__item">
+                        <div class="timeline__year">2024</div>
+                        <div class="timeline__title">Meu primeiro site no ar</div>
+                        <div class="timeline__description">Criei meu primeiro site no ar. Um site para um evento esportivo realizado pelo meu pai. "Festival Urubu Racing".</div>
+                    </div>
+                    
+                    <div class="timeline__item">
+                        <div class="timeline__year">2025</div>
+                        <div class="timeline__title">Começo a estudar Robotica</div>
+                        <div class="timeline__description">Comecei a estudar sobre Robotica. Aprendi sobre a lógica de programação e a criação de robôs com Arduino.</div>
+                    </div>
+                    
+                    <div class="timeline__item">
+                        <div class="timeline__year">2025</div>
+                        <div class="timeline__title">Começo a estudar desenvolvimento de jogos </div>
+                        <div class="timeline__description">Comecei a estudar sobre desenvolvimento de jogos. Aprendi sobre a lógica de programação e a criação de jogos com Godot.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section/seção de habilidades -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Habilidades & Ferramentas</h2>
+            
+            <div class="skills__content">
+                <div class="skills__chart-container animate-on-scroll">
+                    <canvas id="skills-chart" width="400" height="400"></canvas>
+                </div>
+                
+                <div class="skills__badges animate-on-scroll">
+                    <div class="skills__badge" data-skill="HTML">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skills__badge" data-skill="CSS">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skills__badge" data-skill="JavaScript">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skills__badge" data-skill="React Native">
+                        <i class="fab fa-react"></i>
+                        <span>React Native</span>
+                    </div>
+                    <div class="skills__badge" data-skill="GDScript">
+                        <i class="fas fa-gamepad"></i>
+                        <span>GDScript</span>
+                    </div>
+                    <div class="skills__badge" data-skill="Figma">
+                        <i class="fab fa-figma"></i>
+                        <span>Figma</span>
+                    </div>
+                    <div class="skills__badge" data-skill="Python">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skills__badge" data-skill="Portugol">
+                        <i class="fas fa-code"></i>
+                        <span>Portugol</span>
+                    </div>
+                    <div class="skills__badge" data-skill="Canva">
+                        <i class="fas fa-palette"></i>
+                        <span>Canva</span>
+                    </div>
+                    <div class="skills__badge" data-skill="Audiovisual">
+                        <i class="fas fa-video"></i>
+                        <span>Audiovisual</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- O joão Guilherme é muito gay, já falava o Chat GPT kakakakak-->
+    
+    <!-- Portfolio/projetos-->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Portfólio de Projetos</h2>
+            
+            <div class="portfolio__grid animate-on-scroll">
+                <!-- Projeto 01 -->
+                <div class="portfolio__card" data-project='{"title":"Card 01","description":"<p>Descrição do card</p>","technologies":["HTML5","CSS3","JavaScript ES6","API Integration"],"gallery":["/api/placeholder/800/500","/api/placeholder/800/500","/api/placeholder/800/500"]}'>
+                    <div class="portfolio__card-image">
+                        <img src="IMG/Captura de tela 2025-05-22 205925.png" alt="Card 01">
+                    </div>
+                    <h3 class="portfolio__card-title">Site do Festival Urubu Racing</h3>
+                    <p class="portfolio__card-tagline">Foi o meu primeiro site a ir para o ar. Eu o havia o feito completo antes programando, mas como foi  meu primeiro projeto, tive problemas na responsividade e o refiz todo usando o criador de sites da Hostinger</p>
+                    <div class="portfolio__card-actions">
+                        <a href="https://www.uruburacing.com/" class="portfolio__action" data-tooltip="Ver Demo" target="_blank">
+                            <i class="fas fa-play"></i>
+                        </a>
+                        <a href="https://www.uruburacing.com/" class="portfolio__action" data-tooltip="Ver Código" target="_blank">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <div class="portfolio__tooltip" id="portfolio-tooltip" style="display: none;"></div>
+                    </div>
+                </div>
+                
+                <!-- Projeto 02 -->
+                <div class="portfolio__card" data-project='{"title":"Card 02","description":"<p>Descrição do card</p>","technologies":["React Native","JavaScript","AsyncStorage","Animated API"],"gallery":["/api/placeholder/800/500","/api/placeholder/800/500","/api/placeholder/800/500"]}'>
+                    <div class="portfolio__card-image">
+                        <img src="IMG/Captura de tela 2025-05-22 204817.png" alt="Card 02">
+                    </div>
+                    <h3 class="portfolio__card-title">Minha Primeira Calculadora</h3>
+                    <p class="portfolio__card-tagline">Foi a minha primeira calculadora, foi feita em JavaScript. Também foi o meu primeiro projeto pratico usando JavaScript. Fiz ela no segundo ano do ensino médio na materia de Programação Web. </p>
+                    <div class="portfolio__card-actions">
+                        <a href="https://68309328990ce86a773fdc1f--delicate-churros-f8aa6b.netlify.app/" class="portfolio__action" data-tooltip="Ver Demo" target="_blank">
+                            <i class="fas fa-play"></i>
+                        </a>
+                        <a href="https://github.com/ThalesTimbo/Minha-Primeira-Calculadora-" class="portfolio__action" data-tooltip="Ver Código" target="_blank">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <div class="portfolio__tooltip" id="portfolio-tooltip" style="display: none;"></div>
+                    </div>
+                </div>
+                
+                <!-- Projeto 03 -->
+                <div class="portfolio__card" data-project='{"title":"Card 03","description":"<p>Descrição do card</p>","technologies":["Godot Engine","GDScript","Pixel Art","Game Design"],"gallery":["/api/placeholder/800/500","/api/placeholder/800/500","/api/placeholder/800/500"]}'>
+                    <div class="portfolio__card-image">
+                        <img src="IMG/Captura de tela 2025-05-23 133722.png" alt="Card 03">
+                    </div>
+                    <h3 class="portfolio__card-title">TaskFlow</h3>
+                    <p class="portfolio__card-tagline">TaskFlow é um projeto de um site de gerenciamento de tarefas, feito em HTML, CSS e JavaScript. O projeto foi algo que me rendeu muito aprendizado, pois foi nele que eu apredi a usar a função de localStorage do JavaScript. E usei ia para fazer o design do site e a responsividade.</p>
+                    <div class="portfolio__card-actions">
+                        <a href="https://6830a227f670978bfe18a2ad--stellar-griffin-e5b8d4.netlify.app/" class="portfolio__action" data-tooltip="Ver Demo" target="_blank">
+                            <i class="fas fa-play"></i>
+                        </a>
+                        <a href="https://github.com/ThalesTimbo/TaskFlow/tree/main?tab=readme-ov-file" class="portfolio__action" data-tooltip="Ver Código" target="_blank">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <div class="portfolio__tooltip" id="portfolio-tooltip" style="display: none;"></div>
+                    </div>
+                </div>
+                
+                <!-- Projeto 04 -->
+                <div class="portfolio__card" data-project='{"title":"Card 04","description":"<p>Descrição do card</p>","technologies":["HTML5","CSS3","JavaScript","Data Visualization"],"gallery":["/api/placeholder/800/500","/api/placeholder/800/500","/api/placeholder/800/500"]}'>
+                    <div class="portfolio__card-image">
+                        <img src="IMG/Captura de tela 2025-05-23 140132.png" alt="Card 04">
+                    </div>
+                    <h3 class="portfolio__card-title">Gerador de Senhas</h3>
+                    <p class="portfolio__card-tagline">Gerador de Senhas é um projeto de um site de geração de senhas. Fiz ele durante o segundo ano do ensino médio na materia de Programação Web, servindo como uma prova pratica para a materia.</p>
+                    <div class="portfolio__card-actions">
+                        <a href="https://6830a7897908349514ca6d84--mellow-tiramisu-d1560e.netlify.app/" class="portfolio__action" data-tooltip="Ver Demo" target="_blank">
+                            <i class="fas fa-play"></i>
+                        </a>
+                        <a href="https://github.com/ThalesTimbo/Gerador-de-Senhas/tree/main" class="portfolio__action" data-tooltip="Ver Código" target="_blank">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <div class="portfolio__tooltip" id="portfolio-tooltip" style="display: none;"></div>
+                    </div>
+                </div>
+                
+                <!-- Projeto 05 -->
+                <div class="portfolio__card" data-project='{"title":"Card 05","description":"<p>Descrição do card</p>","technologies":["HTML5","CSS3","JavaScript","E-commerce APIs"],"gallery":["/api/placeholder/800/500","/api/placeholder/800/500","/api/placeholder/800/500"]}'>
+                    <div class="portfolio__card-image">
+                        <img src="IMG/Captura de tela 2025-05-24 125729.png" alt="Card 05">
+                    </div>
+                    <h3 class="portfolio__card-title">Timer Pro</h3>
+                    <p class="portfolio__card-tagline">Timer Pro é um projeto de um site de temporizador. Fiz ele durante o segundo ano do ensino médio na materia de Programação Web. Me serviu para aprender a usar o JavaScript para criar um temporizador. Também me rendeu muito aprendizado com o Design e como a IA pode auxiliar com ele.	</p>
+                    <div class="portfolio__card-actions">
+                        <a href="https://6831e97199a3a86c11042884--celadon-conkies-ef4b37.netlify.app/" class="portfolio__action" data-tooltip="Ver Demo" target="_blank">
+                            <i class="fas fa-play"></i>
+                        </a>
+                        <a href="https://github.com/ThalesTimbo/Timer-" class="portfolio__action" data-tooltip="Ver Código" target="_blank">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <div class="portfolio__tooltip" id="portfolio-tooltip" style="display: none;"></div>
+                    </div>
+                </div>
+                
+                <!-- Projeto 06 -->
+                <div class="portfolio__card" data-project='{"title":"Card 06","description":"<p>Descrição do card</p>","technologies":["HTML5","CSS3","JavaScript","WebGL"],"gallery":["/api/placeholder/800/500","/api/placeholder/800/500","/api/placeholder/800/500"]}'>
+                    <div class="portfolio__card-image">
+                        <img src="IMG/Captura de tela 2025-05-24 215939.png" alt="Card 06">
+                    </div>
+                    <h3 class="portfolio__card-title">Conversor de unidades</h3>
+                    <p class="portfolio__card-tagline">Fiz um conversor de unidades, fiz ele quando estava entediado e queria criar um projeto. Gostei bastante do resultado, e aprendi bastante com ele. Mas acho que posso fazer mais bonito</p>
+                    <div class="portfolio__card-actions">
+                        <a href="https://majestic-sfogliatella-3d2cf4.netlify.app/" class="portfolio__action" data-tooltip="Ver Demo" target="_blank">
+                            <i class="fas fa-play"></i>
+                        </a>
+                        <a href="https://github.com/ThalesTimbo/Conversor-de-unidades-" class="portfolio__action" data-tooltip="Ver Código" target="_blank">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <div class="portfolio__tooltip" id="portfolio-tooltip" style="display: none;"></div>
+                    </div>
+                </div>
+
+                <!-- Projeto 07 -->
+                <div class="portfolio__card" data-project='{"title":"Card 07","description":"<p>Descrição do card</p>","technologies":["React Native","JavaScript","Audio APIs","UI/UX Design"],"gallery":["/api/placeholder/800/500","/api/placeholder/800/500","/api/placeholder/800/500"]}'>
+                    <div class="portfolio__card-image">
+                        <img src="IMG/ChatGPT Image 26 de mai. de 2025, 12_57_22.png" alt="Card 07">
+                    </div>
+                    <h3 class="portfolio__card-title">Robô em Python</h3>
+                    <p class="portfolio__card-tagline">Foi um projeto que fiz, na máteria de POO (Programação Orientada a Objetos), que foi um dos meus projetos mais divertidos de fazer. É uma coisa que ajuda com bastante aprendizado, pois é uma coisa que não é tão comum de se ver em um projeto de programação.</p>
+                    <div class="portfolio__card-actions">
+                        <a href="https://github.com/ThalesTimbo/Robozinho-inteligente-em-phyton" class="portfolio__action" data-tooltip="Ver Demo" target="_blank">
+                            <i class="fas fa-play"></i>
+                        </a>
+                        <a href="https://github.com/ThalesTimbo/Robozinho-inteligente-em-phyton" class="portfolio__action" data-tooltip="Ver Código" target="_blank">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <div class="portfolio__tooltip" id="portfolio-tooltip" style="display: none;"></div>
+                    </div>
+                </div>
+
+                <!-- Projeto 08 -->
+                <div class="portfolio__card" data-project='{"title":"Card 08","description":"<p>Descrição do card</p>","technologies":["HTML5","CSS3","JavaScript","Payment APIs"],"gallery":["/api/placeholder/800/500","/api/placeholder/800/500","/api/placeholder/800/500"]}'>
+                    <div class="portfolio__card-image">
+                        <img src="IMG/escolaweb-5-dicas-essenciais-para-uma-boa-gestao-escolar-1-1536x963.jpg" alt="Card 08">
+                    </div>
+                    <h3 class="portfolio__card-title">Sistema do Professor</h3>
+                    <p class="portfolio__card-tagline">Foi um sistema feito em python, que simula um sistema de gerenciamento de um professor, onde ele pode cadastrar alunos, atribuir uma matricula, notas entre outras funções. Fiz durante o meu segundo ano do ensino médio na materia de POO (Programação Orientada a Objetos).</p>
+                    <div class="portfolio__card-actions">
+                        <a href="https://github.com/ThalesTimbo/Sistema-do-Professor" class="portfolio__action" data-tooltip="Ver Demo" target="_blank">
+                            <i class="fas fa-play"></i>
+                        </a>
+                        <a href="https://github.com/ThalesTimbo/Sistema-do-Professor" class="portfolio__action" data-tooltip="Ver Código" target="_blank">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <div class="portfolio__tooltip" id="portfolio-tooltip" style="display: none;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- pagina de contato (formulario - é para estar funcionando) -->
+     
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Contato</h2>
+            <form id="contact-form" class="contact__form animate-on-scroll">
+                <input type="hidden" name="_subject" value="Nova mensagem do portfólio!">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <input type="text" name="name" class="form-control" placeholder="Seu nome" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" name="email" class="form-control" placeholder="Seu e-mail" required>
+                    </div>
+                </div>
+                <div class="row g-3 mt-2">
+                    <div class="col-12">
+                        <textarea name="message" class="form-control" rows="5" placeholder="Sua mensagem" required></textarea>
+                    </div>
+                </div>
+                <div class="row g-3 mt-3">
+                    <div class="col-12 text-end">
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </div>
+                </div>
+                <div id="form-status" class="mt-3" style="display: none;"></div>
+            </form>    
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center py-4">
+            <p class="mb-1">&copy; 2025 Thales Timbó Fernandes. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
